@@ -1,0 +1,5 @@
+name    'sudo'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Manage sudo configuration via Puppet'

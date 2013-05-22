@@ -1,0 +1,5 @@
+name    'lsb'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Installs lsb tools for specific operating systems via Puppet'

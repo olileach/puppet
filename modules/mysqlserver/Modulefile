@@ -1,0 +1,5 @@
+name    'mysqlserver'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Installs mysqlserver, mysql client and mysqltuner via Puppet'

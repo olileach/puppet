@@ -1,0 +1,5 @@
+name    'dos2unix'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Installs and manages dos2unix configuration via Puppet'

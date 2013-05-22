@@ -1,0 +1,5 @@
+name    'epel'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Manages epel repo configuration via Puppet'

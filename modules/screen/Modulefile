@@ -1,0 +1,5 @@
+name    'screen'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Installs screen (http://centoshelp.org/resources/scripts-tools/a-basic-understanding-of-screen-on-centos/) via Puppet'

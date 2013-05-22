@@ -1,0 +1,5 @@
+name    'vmtools'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Manage vmtools installation via Puppet'

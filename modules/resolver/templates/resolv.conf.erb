@@ -1,0 +1,6 @@
+domain <%= domain_name %>
+<% if !search_path.empty? %>search <%= search_path.split(",") %>
+<% end -%>
+<% name_servers.split(',').each do |ns| %>nameserver <%= ns %>
+<% end -%>
+

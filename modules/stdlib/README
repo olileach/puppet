@@ -1,0 +1,14 @@
+## Module information
+
+name            :'cressex-lab-ntp'
+version         :'1.0'
+author          :'Oliver Leach'
+summary         :'Puppet Module Standard Library'
+description     :'Standard Library for Puppet Modules'Standard Library for Puppet Modules'
+
+## Add dependencies, if any:
+
+## Additional information
+
+Modules required by NTP module
+

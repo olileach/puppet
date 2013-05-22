@@ -1,0 +1,27 @@
+[global]
+        unix charset = LOCALE
+        workgroup = <%= u_domainname %>
+        realm = <%= u_dnsdomain %>
+        server string = Samba Server Version %v
+        security = ADS
+        syslog = 0
+        log file = /var/log/samba/log.%m
+        max log size = 50
+        dns proxy = No
+#        wins server = 10.33.22.100
+#        idmap uid = 16777216-33554431
+#        idmap gid = 16777216-33554431
+        idmap backend = idmap_rid:<%= u_domainname %>=500-100000000
+        idmap uid = 500-100000000
+        idmap gid = 500-100000000
+        template homedir = /home/<%= u_domainname %>/%U
+        template shell = /bin/bash
+        winbind enum users = Yes
+        winbind enum groups = Yes
+        winbind use default domain = Yes
+
+[homes]
+        comment = Home Directories
+        read only = No
+        browseable = No
+

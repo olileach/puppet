@@ -1,0 +1,5 @@
+name    'mysql'
+version '1.0'
+source 'TCL - Cressex Lab'
+author 'Oliver Leach'
+description 'Installs mysql client via Puppet'
